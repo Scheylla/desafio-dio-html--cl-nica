@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Título -->
+        <title>Casa do Mascote</title>
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="style.css">
+        
+        <!-- Fonte -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+
+        <div class="wrapper">
+            
+            <!-- Topo -->
+            <div class="header">
+                <img src="/img/contato.png" />
+            </div>
+
+            <div class="main">
+
+                <!-- Menu -->
+                <div class="menu">
+                    <ul>
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="about.html">Sobre a clínica</a></li>
+                        <li><a href="schedule.html">Horário de Atendimento</a></li>
+                        <li><a href="contact.html">Contato</a></li>
+                    </ul>
+                </div>
+
+                <!-- Conteúdo -->
+                <div class="content" >
+
+                    <!-- Formulário de Contato -->
+                    <form>
+                        
+                        <h1>Deixe sua mensagem:</h1>
+                        <br>
+                        <!-- Nome -->
+                    
+                        <label for="name">
+                            <span>Nome: </span>
+                        </label><br>
+                        <input type="text" id="name" class="box" name="username" /> <br>
+                        
+                        <!-- Email -->
+                        
+                        <label for="mail">
+                            <span>E-mail: </span>
+                        </label><br>
+                        <input type="email" id="mail" class="box" name="usermail" /><br>
+                        
+                        <!-- Assunto -->
+                        
+                        <label for="subject">
+                            <span>Assunto: </span>
+                        </label><br>
+                        <input type="text" id="subject" class="box" name="subject" /><br>
+                        
+                        <!-- Mensagem -->
+                        
+                        <label for="message">
+                            <span>Mensagem: </span>
+                        </label><br>
+                        <textarea type="text" size="500" id="message" class="box" name="message"></textarea><br>
+                    
+                    
+                        <input class="btn_submit" type="submit" value="Enviar">
+                        <input class="btn_reset" type="reset" value="Limpar">
+                                        
+                    </form>
+
+                    <h1>Venha nos visitar!</h1>
+
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.064493479153!2d-46.66322632391298!3d-23.602019863088692!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5a1b6bdd5bd9%3A0xb7ef99f3e7f62b86!2sAv.%20Ibirapuera%2C%20S%C3%A3o%20Paulo%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1726540804877!5m2!1spt-BR!2sbr" width="700" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+             </div>
+
+            <!-- Rodapé -->
+            <div class="footer">
+                <h2>
+                    Avenida Ibirapuera 000, Moema - São Paulo/SP <br>
+                    Fone: 11 9999-9999 
+                </h2>
+            </div>
+        </div>
+    </body>
+</html>

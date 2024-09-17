@@ -1,0 +1,179 @@
+html, body {
+    margin: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    min-height: 850px;
+}
+
+/* Cabeçalho */
+
+.header {
+    width: 1200px;
+    height: 200px;
+    margin-top: 50px;
+}
+
+/* Menu e Conteúdo */
+
+.main {
+    display: flex;
+    flex-flow: row;
+    width: 1200px;
+    min-height: 500px;
+}
+
+.menu {
+    width: 300px;
+    background-color: #9FCAD5;
+    padding: 10px 20px 0px;
+    min-height: 500px;
+}
+
+.content {
+    background-color: #ddf4fb;
+    width: 900px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+/* Rodapé */
+
+.footer {
+    background-color: #9FCAD5; 
+    height: 80px;
+    text-align: center;
+    margin-top: 3px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* Texto */
+
+h1
+{
+    color: #9FCAD5;
+    font-family: "Quicksand", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: underline;
+    text-align: center;
+}
+
+h2
+{
+    color: #fff;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+p
+{
+    color: #9FCAD5;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 700;
+    text-align: justify;
+    text-indent: 30px;
+}
+
+ul
+{
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+li
+{
+    background-color: #FFFFFF;
+    padding: 15px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+a
+{
+    font-family: "Quicksand", sans-serif;
+    color: #9FCAD5;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+/* Tabela */
+
+th
+{
+    background-color: #9FCAD5;
+    color: #fff;
+    font-family: "Quicksand", sans-serif;
+    padding: 10px;
+}
+
+td
+{
+    background-color: #FFFFFF;
+    color: #9FCAD5;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 500;
+    text-align: left;
+    border: 1px solid #9FCAD5;
+    padding: 10px;
+}
+
+.t-align
+{
+    display: flex;
+    justify-content: center;
+}
+
+/* Formulário de contato */
+
+form
+{
+    margin-top: 40px;
+    margin-bottom: 60px;
+    background-color: #FFFFFF;
+    border: solid 2px #9FCAD5;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+.box
+{
+    padding: 7px;
+    width: 90%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+label
+{
+    color: #9FCAD5;
+    font-family: "Quicksand", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+input
+{
+    border: 1px solid #9FCAD5;
+}
+
+textarea
+{
+    border: 1px solid #9FCAD5;
+}
+
+iframe
+{
+    margin-top: 40px;
+}
